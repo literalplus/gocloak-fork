@@ -1,4 +1,4 @@
-module github.com/Nerzal/gocloak/v11
+module github.com/literalplus/gocloak-fork
 
 go 1.15
 

@@ -8,6 +8,8 @@
 [![codecov](https://codecov.io/gh/Nerzal/gocloak/branch/master/graph/badge.svg)](https://codecov.io/gh/Nerzal/gocloak)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FNerzal%2Fgocloak.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FNerzal%2Fgocloak?ref=badge_shield)
 
+**Temporary fork to add client scope -> client role mappings.**
+
 Golang Keycloak API Package
 
 This client is based on: [go-keycloak](https://github.com/PhilippHeuer/go-keycloak)
@@ -32,13 +34,13 @@ For release notes please consult the specific releases [here](https://github.com
 ### Installation
 
 ```shell
-go get github.com/Nerzal/gocloak/v11
+go get github.com/literalplus/gocloak-fork
 ```
 
 ### Importing
 
 ```go
- import "github.com/Nerzal/gocloak/v11"
+ import "github.com/literalplus/gocloak-fork"
 ```
 
 ### Create New User
