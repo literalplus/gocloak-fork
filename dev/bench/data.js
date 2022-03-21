@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1646990689865,
-  "repoUrl": "https://github.com/Nerzal/gocloak",
+  "lastUpdate": 1647889661772,
+  "repoUrl": "https://github.com/literalplus/gocloak-fork",
   "entries": {
     "Benchmark": [
       {
@@ -4157,6 +4157,54 @@ window.BENCHMARK_DATA = {
             "value": 42423852,
             "unit": "ns/op\t   63488 B/op\t     218 allocs/op",
             "extra": "28 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "philipp.nowak@cloudflight.io",
+            "name": "Philipp Nowak",
+            "username": "literalplus"
+          },
+          "committer": {
+            "email": "philipp.nowak@cloudflight.io",
+            "name": "Philipp Nowak",
+            "username": "literalplus"
+          },
+          "distinct": true,
+          "id": "b63e1c28a6190ee673d62471912363eafe149c40",
+          "message": "Add endpoints for client scopes -> scope mappings -> client roles",
+          "timestamp": "2022-03-21T20:04:54+01:00",
+          "tree_id": "00998cc7e36435188e521af638fc9383d882a3fe",
+          "url": "https://github.com/literalplus/gocloak-fork/commit/b63e1c28a6190ee673d62471912363eafe149c40"
+        },
+        "date": 1647889660766,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkLogin",
+            "value": 85934908,
+            "unit": "ns/op\t   62939 B/op\t     223 allocs/op",
+            "extra": "13 times"
+          },
+          {
+            "name": "BenchmarkLogin",
+            "value": 86001275,
+            "unit": "ns/op\t   80837 B/op\t     222 allocs/op",
+            "extra": "13 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkLoginParallel",
+            "value": 87109800,
+            "unit": "ns/op\t   72014 B/op\t     219 allocs/op",
+            "extra": "13 times"
+          },
+          {
+            "name": "BenchmarkLoginParallel",
+            "value": 49788655,
+            "unit": "ns/op\t   52701 B/op\t     217 allocs/op",
+            "extra": "25 times\n2 procs"
           }
         ]
       }
