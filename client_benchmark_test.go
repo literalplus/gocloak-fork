@@ -2,9 +2,8 @@ package gocloak_test
 
 import (
 	"context"
+	"github.com/literalplus/gocloak-fork/v11"
 	"testing"
-
-	"github.com/literalplus/gocloak-fork"
 
 	"github.com/stretchr/testify/assert"
 )
